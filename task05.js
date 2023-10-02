@@ -16,4 +16,4 @@ function range(start, end, step){
   return t;
 }
 
-module.exports = { range };
+module.exports = range;
