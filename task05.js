@@ -1,4 +1,7 @@
-function range(start, end, step = 1){
+function range(start, end, step){
+  if(step == undefined){
+    step = 1;
+  }
   var t = [];
   if(start > end){
     for(var i = start; i >= end; i += step){
